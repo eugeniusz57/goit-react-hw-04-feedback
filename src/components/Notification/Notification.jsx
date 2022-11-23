@@ -3,6 +3,6 @@ import { Message } from './Notification.styled';
 
 export const Notification = ({ message }) => <Message>{message}</Message>;
 
-Notification.protoTypes = {
+Notification.propTypes = {
   message: PropTypes.string.isRequired,
 };
